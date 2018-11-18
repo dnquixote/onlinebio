@@ -10,6 +10,8 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--[if lt IE 9]> <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> <![endif]-->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
@@ -27,7 +29,26 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 	</head>
 	<body>
-
+		<style type="text/css">
+			@media screen and (max-width:680px){
+		    #maincontent{
+			width: auto;
+			float: none;
+		    }
+		    #sidebar{
+			width: auto;
+			float: none;
+		    }
+		 }
+		    @media screen and (max-width: 480px){
+			#header{
+			    height: auto;
+			}
+			#sidebar{
+			    display: none;
+			}
+		    }
+		</style>
 		<!-- Header -->
 			<section id="header">
 				<header class="major">
